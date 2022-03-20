@@ -1,0 +1,24 @@
+{
+	"name": "tailwindcss-basic-starter-pack-with-cli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"watch": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
+		"build": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css  --minify"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shamssujon/tailwindcss-basic-starter-pack-with-cli.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shamssujon/tailwindcss-basic-starter-pack-with-cli/issues"
+	},
+	"homepage": "https://github.com/shamssujon/tailwindcss-basic-starter-pack-with-cli#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.0.23"
+	}
+}
