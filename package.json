@@ -1,7 +1,7 @@
 {
 	"name": "tailwindcss-basic-starter-pack-with-cli",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A basic starter pack to get your project started with TailwindCSS",
 	"main": "index.html",
 	"scripts": {
 		"watch": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
